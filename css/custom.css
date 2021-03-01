@@ -17,7 +17,7 @@
     bottom: 0;
 }
 
-@media screen and (max-width: 1440px){
+@media screen and (max-width: 1440px) {
     .main-image {
         right: 90px;
         width: 350px;
@@ -27,11 +27,21 @@
 }
 
 
-@media screen and (max-width: 576px){
+@media screen and (max-width: 576px) {
     .main-image {
         right: -40px;
         width: 265px;
         bottom: 0;
         z-index: -1;
+    }
+
+    .main-logo {
+        height: 65px !important;
+        width: 260px !important;
+    }
+
+    .main-text {
+        font-size: 18px !important;
+        padding-top: 40px !important;
     }
 }
